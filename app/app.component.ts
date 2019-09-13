@@ -42,19 +42,19 @@ export class AppComponent implements OnInit {
         //layoutAlgorithm: 'squarified',
         data: [{
             name: 'ROSE',
-            value: 6,
+            value: 1345,
             colorValue: 1
         }, {
             name: 'DENNY',
-            value: 6,
+            value: 200,
             colorValue: 2
         }, {
             name: 'FRETWELL',
-            value: 4,
+            value: 123,
             colorValue: 3
         }, {
             name: 'FRIDAY',
-            value: 3,
+            value: 155,
             colorValue: 4
         }, {
             name: 'ATAC',
@@ -212,6 +212,10 @@ export class AppComponent implements OnInit {
         text: 'MAC Tracker'
     }
     })
+  }
+
+  scroll(data){
+
   }
 
 }
